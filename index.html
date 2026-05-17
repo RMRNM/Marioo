@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Машулик</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <nav class="header__nav">
+                <img src="images/вставка.png" alt="Логотип" width="150" height="60">
+                <ul class="header__list">
+                    <li class="header__list-item">
+                        <a class="header__list-link active" href="/">Обо мне</a>
+                    </li>
+                    <li class="header__list-item">
+                        <a class="header__list-link" href="/hobbies">Мои хобби</a>
+                    </li>
+                    <li class="header__list-item">
+                        <a class="header__list-link" href="/tastes">Вкусы</a>
+                    </li>
+                    <li class="header__list-item">
+                        <a class="header__list-link" href="/blog">Блог</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <div class="hero__text">
+                        <h1 class="hero__title">
+                            Привет! <br>
+                            Я Маша
+                        </h1>
+                        <p class="hero__desc">
+                            Мне 19 лет, я студентка 2-го курса. Пока только начинаю путь во фронтенде: 
+                            пишу код, разбираюсь в CSS-магии, изучаю JS и потихоньку собираю своё портфолио.
+                        </p>
+                    </div>
+                    <div class="hero__buttons">
+                        <a class="hero__button" href="/blog">Не клацай, она не рабочая.</a>
+                        <a class="hero__scroll" href="#about">
+                            <img class="hero__scroll-image" src="images/arrow-down.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <img class="hero__image" src="images/me.jpg" alt="Моё фото">
+            </div>
+        </section>
+        
+        <section class="about" id="about">
+    <div class="about__container">
+        <h2 class="about__title">Обо мне</h2>
+        <p class="about__subtitle">Листай ниже — там мои хобби, то, что слушаю/читаю, и блог</p>
+    </div>
+</section>
+        
+        <section class="features">
+            <div class="features__container">
+                <div class="feature">
+                    <img class="feature__image" src="images/хобби.jpg" alt="Хобби">
+                    <div class="feature__content">
+                        <h3 class="feature__title">
+                            Мои хобби
+                        </h3>
+                        <p class="feature__desc">
+                            Читаю всё подряд. Леплю из штукатурки.
+                            И периодически осваиваю черчение. Всё это странно сочетается, но именно меня вдохновляет.
+                            
+                        </p>
+                        <a class="feature__link" href="/hobbies">Узнать больше</a>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature__content">
+                        <h3 class="feature__title">
+                            Мои вкусы
+                        </h3>
+                        <p class="feature__desc">
+                            Кофе только латте или раф. Иногда зелёный чай для разнообразия. 
+                            Сладкое обязательный атрибут, особенно когда пишу код или учусь. Лилии мой любимый цветок, в них есть какая-то нежность и спокойствие. 
+                            Обожаю дождь за окном под него хорошо думается. И музыка. Я меломан, поэтому плейлист меняется под настроение.
+                        </p>
+                        <a class="feature__link" href="/tastes">Узнать больше</a>
+                    </div>
+                    <img class="feature__image" src="images/вкусы.jpg" alt="Вкусы">
+                </div>
+            </div>
+        </section>
+        
+        <section class="mini-features">
+            <div class="mini-features__container">
+                <div class="mini-feature">
+                    <header class="mini-feature__header">
+                        <img class="mini-feature__image" src="images/bank-card.png" alt="">
+                        <h4 class="mini-feature__title">Учёба</h4>
+                    </header>
+                    <p class="mini-feature__desc">Хорошистка, дедлайны пытаюсь закрыть наперед.</p>
+                </div>
+                <div class="mini-feature">
+                    <header class="mini-feature__header">
+                        <img class="mini-feature__image" src="images/calculator.png" alt="">
+                        <h4 class="mini-feature__title">Код</h4>
+                    </header>
+                    <p class="mini-feature__desc">Разбираюсь и нарабатываю навыки</p>
+                </div>
+                <div class="mini-feature">
+                    <header class="mini-feature__header">
+                        <img class="mini-feature__image" src="images/camera.png" alt="">
+                        <h4 class="mini-feature__title">Портфолио</h4>
+                    </header>
+                    <p class="mini-feature__desc">Потихоньку собираю свои проекты и показываю прогресс.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="social-links">
+    <div class="social-links__container">
+        <h2 class="social-links__title">Давай на связи! </h2>
+        <p class="social-links__subtitle">Подписывайся на мои социальные сети</p>
+        <div class="social-links__grid">
+            <a href="https://t.me/naryannmarr" class="social-link" target="_blank">
+                <img src="images/telegram.svg" alt="Telegram" class="social-link__icon">
+                <span class="social-link__name">Telegram</span>
+            </a>
+            <a href="https://instagram.com/yourusername" class="social-link" target="_blank">
+                <img src="images/instagram.svg" alt="Instagram" class="social-link__icon">
+                <span class="social-link__name">Instagram</span>
+            </a>
+        </div>
+    </div>
+</section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img src="images/вставка.svg" alt="Логотип" width="150">
+            <p class="footer__text">© 2026 Машулик. Все права защищены.</p>
+            <p class="footer__desc">Сделано с огромным терпением, силами и большим количеством кофе</p>
+        </div>
+    </footer>
+</body>
+
+</html>
